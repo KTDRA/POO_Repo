@@ -10,8 +10,8 @@ public class Main {
     Electrodomestico[] lista = { lavadora, microondas, tv };
 
         for (Electrodomestico e : lista) {
-        e.encender(); // Método heredado de la clase madre
-        e.usar();     // Polimorfismo: cada objeto responde distinto
+        e.encender();
+        e.usar();
         System.out.println("----------------------------------");
         }
 
